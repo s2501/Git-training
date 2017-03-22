@@ -45,6 +45,8 @@ footer,
 header,
 nav,
 section {
+	font-size : 30px;
+	
   display: block;
 }
 
