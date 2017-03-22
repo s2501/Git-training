@@ -26,13 +26,9 @@ html {
  */
 
 body {
-  margin: 0;
-<<<<<<< HEAD
-  background: #000000;
-=======
-  background: #000;
->>>>>>> d11ad48af1ac21e0d50ec0004c9938d249cbcbd0
-background: #000;
+  margin: 10px;
+  background-color: green;
+
 }
 
 /**
@@ -72,6 +68,7 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
+  border-radius: 20px solid #000;
 }
 
 /**
@@ -91,6 +88,9 @@ hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
+  background: #f0f0f0f0;
+  font-size: 30px;
+  /** sdfggfdgfdgdg **/
 }
 
 /**
