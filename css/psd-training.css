@@ -9,6 +9,10 @@
 
 /* Document
    ========================================================================== */
+/*Petur*/
+body {
+	background: black;
+}
 
 html {
   font-family: sans-serif; /* 1 */
