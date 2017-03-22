@@ -27,6 +27,12 @@ html {
 
 body {
   margin: 0;
+<<<<<<< HEAD
+  background: #000000;
+=======
+  background: #000;
+>>>>>>> d11ad48af1ac21e0d50ec0004c9938d249cbcbd0
+background: #000;
 }
 
 /**
