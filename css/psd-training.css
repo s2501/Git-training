@@ -54,6 +54,9 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  padding: 30px;
+  border-radius: 10px;
+
 }
 
 /* Grouping content
