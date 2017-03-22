@@ -103,8 +103,8 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: sans-serif, monospace; /* 1 */
+  font-size: 3em; /* 2 */
 }
 
 /* Text-level semantics
