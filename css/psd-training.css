@@ -6,9 +6,10 @@
  * 3. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-
+asd
 /* Document
    ========================================================================== */
+/* petur */
 
 html {
   font-family: sans-serif; /* 1 */
@@ -25,8 +26,9 @@ html {
  */
 
 body {
-  margin: 0;
-  background: #000;
+  margin: 10px;
+  background-color: green;
+
 }
 
 /**
@@ -64,6 +66,7 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
+  border-radius: 20px solid #000;
 }
 
 /**
@@ -83,6 +86,9 @@ hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
+  background: #f0f0f0f0;
+  font-size: 30px;
+  /** sdfggfdgfdgdg **/
 }
 
 /**
@@ -547,3 +553,5 @@ template {
 
 /*fix 22.03*/
 /*this is my atonement for my previous sins */
+
+/*123*/
