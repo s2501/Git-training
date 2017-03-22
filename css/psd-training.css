@@ -88,7 +88,11 @@ hr {
   overflow: visible; /* 2 */
   background: #f0f0f0f0;
   font-size: 30px;
+<<<<<<< HEAD
   /** sdfggfdgfdgdg **/
+=======
+  padding: 20px;
+>>>>>>> test-branch
 }
 
 /**
