@@ -86,6 +86,9 @@ hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
+  background: #f0f0f0f0;
+  font-size: 30px;
+  /** sdfggfdgfdgdg **/
 }
 
 /**
