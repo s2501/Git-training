@@ -1,0 +1,38 @@
+.latest-work {
+	width: 100%;
+	background: #54d154;
+	margin: 0;
+	padding: 0;
+}
+
+.heading-wrapper {}
+
+.heading {
+	text-align: center;
+	font-style: 'Myriad Pro', sans-serif;
+	color: #207b20;
+}
+
+.underscore {
+	height: 2px;
+	width: 46px;
+	background:#207b20;
+	display: block;
+	margin: 0 auto;
+}
+
+.paragraph {
+	text-align: center;
+	color: #2b9b2b;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+}
+
+.navigation a {
+	display: inline-block;
+	height: 33px;
+	text-decoration: none;
+}
