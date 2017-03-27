@@ -1,0 +1,36 @@
+.what-we-do {
+	text-align: center;
+	background: #fff;
+}
+
+.what-we-do .heading {
+	position: relative;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 21px;
+	text-transform: uppercase;
+	display: block;
+	color: #828181;
+}
+
+.what-we-do .heading:after {
+	content: "";
+	display: block;
+	width: 43px;
+	height: 2px;
+	background-color: #828181;
+	margin: 0 auto;
+}
+
+.what-we-do .sub-heading {
+	font-size: 15px;
+	color: #b7b3b3;
+	text-transform: initial;
+}
+
+.info-wraper .info-item {
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
