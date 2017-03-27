@@ -1,5 +1,25 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+
 .clients {
 	background-color: #f2f1f1;
 	width: 1169px;
 	height: 497px;
+
+}
+
+
+
+.clients-logos {
+    display:block;
+    width:500px;
+    margin:30px;
+}
+
+.border-right {
+	float:left;
+    padding:10px;
+    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+    background-position: center bottom, center right;
+    background-repeat:no-repeat;
 }
