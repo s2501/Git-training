@@ -1,5 +1,26 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+
 .clients {
 	background-color: #f2f1f1;
 	width: 1169px;
 	height: 497px;
+}
+
+.clients-btn {
+	background-color:  #dddcdc;
+	width: 186px;
+	height: 40px;
+	border-radius: 10px;
+	font-family: ProximaNova;
+	color:  #a59d9d;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;
+}
+
+.fa-fa-arrow-right {
+	background-color:  #a59d9d;
+	width: 14px;
+	height: 10px;
 }
