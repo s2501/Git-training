@@ -11,6 +11,7 @@
 	text-transform: uppercase;
 	display: block;
 	color: #828181;
+	letter-spacing: 3px;
 }
 
 .what-we-do .heading:after {
@@ -20,17 +21,41 @@
 	height: 2px;
 	background-color: #828181;
 	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	bottom: 22px;
+	transform: translate(-50%, -50%);
 }
 
 .what-we-do .sub-heading {
+	display: block;
 	font-size: 15px;
 	color: #b7b3b3;
 	text-transform: initial;
+	margin-top: 9px;
+	letter-spacing: initial;
 }
 
 .info-wraper .info-item {
 	display: inline-block;
 	float: left;
 	text-align: center;
+
 }
 
+.info-item .icon-wrap {
+    display: inline-block;
+    padding: 50px;
+    background-color: #e1f3e1;
+    border-radius: 25px;
+}
+
+.info-item .btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	background-color: #54d154;
+	padding: 10px 20px;
+	border-radius: 26px;
+}
