@@ -36,3 +36,19 @@
 	height: 33px;
 	text-decoration: none;
 }
+
+.photography-btn {
+	background: #2b9b2b;
+	color: #fff;
+}
+
+.design-btn {
+	background: #fff;
+	color: #2b9b2b;
+}
+
+.print-btn {
+	background: #fff;
+	color: #2b9b2b;
+}
+
