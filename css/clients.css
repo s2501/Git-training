@@ -5,22 +5,21 @@
 	background-color: #f2f1f1;
 	width: 1169px;
 	height: 497px;
+
 }
 
-.clients-btn {
-	background-color:  #dddcdc;
-	width: 186px;
-	height: 40px;
-	border-radius: 10px;
-	font-family: ProximaNova;
-	color:  #a59d9d;
-	font-size: 18px;/* Approximation due to font substitution */
-	font-weight: 400;
-	text-align: center;
+
+
+.clients-logos {
+    display:block;
+    width:500px;
+    margin:30px;
 }
 
-.fa-fa-arrow-right {
-	background-color:  #a59d9d;
-	width: 14px;
-	height: 10px;
+.border-right {
+	float:left;
+    padding:10px;
+    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+    background-position: center bottom, center right;
+    background-repeat:no-repeat;
 }
