@@ -1,0 +1,12 @@
+.wrap	{
+	display: block;
+	background: #54d154;
+	text-align: center;
+}
+
+.content {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin: 125px 175px;
+}
