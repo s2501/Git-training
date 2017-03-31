@@ -52,3 +52,13 @@
 	color: #2b9b2b;
 }
 
+/*Изображенията са 160х160, както са в main.psd*/
+
+.grid-img {
+	width: 160px;
+	height: 160px;
+}
+
+.container {
+	width: 100%;
+}
