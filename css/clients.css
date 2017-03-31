@@ -1,4 +1,4 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 
 .clients {
@@ -22,4 +22,17 @@
     background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
     background-position: center bottom, center right;
     background-repeat:no-repeat;
+}
+
+.clients-btn {
+	background-color:  #dddcdc;
+	width: 186px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.fa-arrow-right {
+	background-color:  #a59d9d;
+	width: 14px;
+	height: 10px;
 }
