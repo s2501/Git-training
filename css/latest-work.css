@@ -11,6 +11,8 @@
 	text-align: center;
 	font-style: 'Myriad Pro', sans-serif;
 	color: #207b20;
+	padding-top: 43px;
+	margin-bottom: 13px;
 }
 
 .underscore {
@@ -24,41 +26,76 @@
 .paragraph {
 	text-align: center;
 	color: #2b9b2b;
+	margin: 10px 0;
+	padding-bottom: 50px;
+}
+
+.navigation-wrapper {
+	width: 100%;
+	text-align: center;
 }
 
 .navigation {
-	display: block;
-	text-align: center;
+	display: inline-block;
+	margin-bottom: 60px;
+	font-size: 0;
 }
 
 .navigation a {
 	display: inline-block;
-	height: 33px;
 	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	border: 0.5px solid #2b9b2b;
 }
 
 .photography-btn {
 	background: #2b9b2b;
 	color: #fff;
+	padding: 10px 20px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 .design-btn {
 	background: #fff;
 	color: #2b9b2b;
+	padding: 10px 20px;
 }
 
 .print-btn {
 	background: #fff;
 	color: #2b9b2b;
+	padding: 10px 20px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
-/*Изображенията са 160х160, както са в main.psd*/
+/*Изображенията са в различни размери, както са в main.psd.*/
+/*Width идва от col-2, аз довабих height за да ги изравня*/
 
 .grid-img {
-	width: 160px;
 	height: 160px;
 }
 
 .container {
 	width: 100%;
 }
+
+.img-wrapper {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ВЪПРОСИ ЗА СТАН:*/
+/*При наличие на отстояние между два елемента от 50px (например), как ги разпределяме? 25/25? */
