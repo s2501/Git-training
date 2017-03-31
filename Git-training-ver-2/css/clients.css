@@ -1,0 +1,60 @@
+@import url(https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css);
+
+
+.clients {
+	background-color: #f2f1f1;
+	width: 1169px;
+	height: 497px;
+	text-align: center;
+}
+
+.clients-logos {
+    display:block;
+    width:500px;
+    margin:30px;
+}
+
+.clients-btn {
+	background-color:  #dddcdc;
+	width: 186px;
+	height: 40px;
+	border-radius: 10px;
+	font-family: ProximaNova;
+	color:  #a59d9d;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+h1 {
+	font-family: Montserrat;
+	color:  #828181;
+	font-size: 20.28px;
+	font-weight: 300;
+	text-align: center;
+	transform: scaleY(1.0128);
+}
+
+p {
+	font-family: OpenSans;
+	color:  #b7b3b3;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
