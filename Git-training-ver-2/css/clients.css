@@ -8,11 +8,6 @@
 	text-align: center;
 }
 
-.clients-logos {
-    display:block;
-    width:500px;
-    margin:30px;
-}
 
 .clients-btn {
 	background-color:  #dddcdc;
@@ -24,6 +19,7 @@
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
+	margin-top: 70px;
 }
 
 h1 {
@@ -56,5 +52,12 @@ p {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    margin-top: 20px;
+
+}
+
+
+
+.col-3 {width: 25%;}
+
 }
