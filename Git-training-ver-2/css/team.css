@@ -2,7 +2,7 @@
 	background: #54d154;
 }
 .footer h2 {
-color: #288728;
+	color: #288728;
 
 }
 
@@ -15,13 +15,16 @@ color: #288728;
 
 .content {
 	box-sizing: border-box;
-	display: flex;
+	display: inline-flex;
+	flex-direction: column;
 	justify-content: space-between;
 	margin: 125px 175px;
 }
 
 .team-1 {
-	border: 1px solid #000
+	display: flex;
+	position: column;
+	justify-content: center;
 }
 
 .bottom-team-present {
@@ -40,7 +43,7 @@ color: #288728;
 
 }
 
-	.button-team a {
-		color: #98e198;
-		text-decoration: none;
-	}
+.button-team a {
+	color: #f4fcf4;
+	text-decoration: none;
+}

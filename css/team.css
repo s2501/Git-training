@@ -2,8 +2,8 @@
 	background: #54d154;
 }
 .footer h2 {
-color: #288728;
-
+	color: #288728;
+margin: 20px 0 0;
 }
 
 .wrap	{
@@ -13,6 +13,18 @@ color: #288728;
 	padding-top: 20px;
 }
 
+.wrap p {
+color: #36a936;
+margin: 10px;
+}
+
+.horizont-line {
+	height: 2px;
+	width: 45px;
+	background: #207b20;
+	display: inline-flex;
+}
+
 .content {
 	box-sizing: border-box;
 	display: flex;
@@ -20,8 +32,17 @@ color: #288728;
 	margin: 125px 175px;
 }
 
-.team-1 {
-	border: 1px solid #000
+.team {
+	width: 60px;
+	height: 30px;
+}
+
+.vertical-line {
+	height: 65px;
+	width: 2px;
+	background: #207b20;
+	display: inline-flex;
+
 }
 
 .bottom-team-present {
@@ -32,15 +53,16 @@ color: #288728;
 }
 
 .button-team  {
-	border: 1px solid #fff;
-	border-radius: 10px;
+	width: 15%;
+	border: 1px solid #3eba3e;
+	border-radius: 30px;
 	text-decoration: none;
 	background:  #54d154;
 	padding: 10px;
 
 }
 
-	.button-team a {
-		color: #98e198;
-		text-decoration: none;
-	}
+.button-team a {
+	color: #98e198;
+	text-decoration: none;
+}
