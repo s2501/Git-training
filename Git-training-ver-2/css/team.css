@@ -22,8 +22,8 @@
 
 .content {
 	box-sizing: border-box;
-	display: inline-flex;
-	flex-direction: column;
+	display: flex;
+	/*flex-direction: column;*/
 	justify-content: space-between;
 	margin: 125px 175px;
 }
@@ -38,6 +38,7 @@
 .team {
 	width: 60px;
 	height: 30px;
+	border-radius: 30px;
 }
 
 .vertical-line {
@@ -47,6 +48,8 @@
 	display: inline-flex;
 	margin: auto;
 }
+
+
 .bottom-team-present {
 	background: #3eba3e;
 	display: flex;
