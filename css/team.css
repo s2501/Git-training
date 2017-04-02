@@ -33,9 +33,15 @@ margin: 10px;
 }
 
 .team {
-	width: 60px;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
 	height: 30px;
 	border-radius: 30px;
+}
+
+.team a {
+	text-decoration: none;
 }
 
 .team-1 {
@@ -65,9 +71,8 @@ margin: 10px;
 
 .button-team  {
 	width: 15%;
-	border: 1px solid #3eba3e;
+	border: 2px solid #3eba3e;
 	border-radius: 30px;
-	text-decoration: none;
 	background:  #54d154;
 	padding: 10px;
 
