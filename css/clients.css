@@ -19,7 +19,7 @@
 .border-right {
 	float:left;
     padding:10px;
-    background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");
+    /*background-image: url("http://imageshack.us/a/img641/9127/borderbottomt.png"), url("http://imageshack.us/a/img825/9262/borderrighto.png");*/
     background-position: center bottom, center right;
     background-repeat:no-repeat;
 }
