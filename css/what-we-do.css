@@ -38,11 +38,14 @@
 	letter-spacing: initial;
 }
 
-.info-wraper .info-item {
-	display: inline-block;
-	float: left;
-	text-align: center;
+.info-wraper {
+	display: flex;	
+}
 
+.info-wraper .info-item {
+	display: block;
+	float: left;
+	flex: 1 1 auto;
 }
 
 
@@ -61,7 +64,7 @@
 	background-color: #54d154;
 	padding: 10px 20px;
 	border-radius: 26px;
-	margin-bottom: 71px;
+	margin-bottom: 71px; 
 }
 
 .info-wraper h2 {
@@ -73,7 +76,7 @@
 .info-item .info-text {
 	color: #828181;
 	font-size: 15px;
-	max-width: 270px;
+	max-width: 257px;
 	display: block;
     margin: 0 auto;
     padding-bottom: 26px;
