@@ -34,3 +34,5 @@ var exampleOfTheInternet = {
     },
     arryaExample: [1,2,3]
 };
+
+var paramBoolean = true;
