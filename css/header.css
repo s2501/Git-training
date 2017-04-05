@@ -1,0 +1,123 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,700');
+@import url('psd-training.css');
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+}
+.header {
+	background: url(./../images/header/header-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+/* Navigation */
+.main-nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	margin: 0 15px;
+	font-family:  'Open Sans', sans-serif;
+	position: relative;
+	line-height: 2.2;
+}
+	.main-nav a:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 0;
+		content: '';
+		transition: ease-in-out all 0.3s;
+		background-color: #54d154;
+	}
+		.main-nav a.active:after {
+			height: 5px;
+		}
+		.main-nav a:hover:after {
+			height: 5px;
+			background-color: #96f396;
+		}
+	
+/* Logo */
+.logo {
+	display: block;
+	text-align:center;
+	padding: 6px 0;
+}
+
+/* Search */
+.header-search {
+    float: right;
+	margin: 5px 15px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 6px 9px;
+	border-radius: 16px;
+}
+	.header-search .header-search-input {
+		border: 0;
+		background: none;
+		color: #111;
+	}
+	.header-search .header-search-btn  {
+		border: 0;
+		background: none;
+		color: #111;
+	}
+
+/* Header title */
+.header-title {
+	padding: 230px 0 12px;
+	text-align: center;
+}
+	.header-title span {
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 55px;
+	}
+	.green-btn {
+		background-color: #54d154;
+		display: block;
+		border: 0;
+		margin: 25px auto 216px;
+		font-size: 22px;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		width: 208px;
+		line-height: 47px;
+		font-weight: 300;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: ease-in all 0.3s;
+	}
+		.green-btn:hover,
+		.green-btn:focus {
+			background-color: #6de66d;
+		}
+	.scroll-btn {
+		background-color: rgba(255, 255, 255, 0.8);
+		display: block;
+		border: 0;
+		margin: 0 auto;
+		font-size: 16px;
+		color: #111111;
+		font-family: 'Open Sans', sans-serif;
+		width: 120px;
+		line-height: 25px;
+		font-weight: 400;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: ease-in all 0.3s;
+	}
+		.scroll-btn:hover,
+		.scroll-btn:focus {
+			background-color: rgba(255, 255, 255, 1);
+		}
+		.scroll-btn i {
+			font-size: 12px;
+		}
